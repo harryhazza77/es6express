@@ -1,0 +1,44 @@
+{
+  "name": "es6server",
+  "version": "1.0.0",
+  "description": "a template/starter kit for best practice express es6 babel development (no webpack though)",
+  "main": "index.js",
+  "author": "harry patel",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/boot.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-babel-istanbul": "^1.6.0",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-env": "^0.4.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-flowtype": "^1.0.0",
+    "gulp-mocha": "^4.1.0",
+    "gulp-nsp": "^2.4.2",
+    "gulp-spawn-mocha": "^3.1.0",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-register": "^6.24.0",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-ejs-layouts": "^2.3.0",
+    "gulp-watch": "^4.3.11",
+    "helmet": "^3.5.0",
+    "http-errors": "^1.6.1",
+    "morgan": "^1.8.1",
+    "nconf": "^0.8.4",
+    "nocache": "^2.0.0"
+  }
+}
