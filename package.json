@@ -6,6 +6,7 @@
   "author": "harry patel",
   "license": "MIT",
   "scripts": {
+    "postinstall": "gulp",
     "start": "node ./src/boot.js"
   },
   "devDependencies": {
